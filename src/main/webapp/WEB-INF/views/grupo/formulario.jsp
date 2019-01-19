@@ -22,15 +22,15 @@
 		<form:form method="POST" action="grupo/crear"
 			modelAttribute="grupo">
 			<div class="form-group">
-				<form:label path="codigo" class="col-sm-2 col-form-label" >Cuenta</form:label>
+				<form:label path="codigo" class="col-sm-2 col-form-label" >codigo</form:label>
 				<form:input path="codigo" />
 			</div>
 			<div class="form-group">
-				<form:label path="nombre" class="col-sm-2 col-form-label">Clave</form:label>
+				<form:label path="nombre" class="col-sm-2 col-form-label">nombre</form:label>
 				<form:password path="nombre" />
 			</div>
 			<div class="form-group">
-				<form:label path="descripcion" class="col-sm-2 col-form-label">Direcci&oacute;n</form:label>
+				<form:label path="descripcion" class="col-sm-2 col-form-label">Descripc&oacute;n</form:label>
 				<form:textarea path="descripcion" rows="5" cols="30" />
 			</div>
 			<button type="submit" class="btn btn-primary">Submit</button>
